@@ -1,0 +1,14 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="jakarta.faces.html"
+                xmlns:f="jakarta.faces.core"
+                xmlns:ui="jakarta.faces.facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/layouts/main.xhtml">
+
+    <ui:define name="content">
+        <p:panel header="#{msg['login.error']}">
+            <p:staticMessage severity="error" summary="ERROR" detail="#{msg['login.error.detail']}"/>
+            <p:linkButton outcome="login" value="#{msg['login.iniciar']}" styleClass="p-m-2"/>
+        </p:panel>
+    </ui:define>
+</ui:composition>
