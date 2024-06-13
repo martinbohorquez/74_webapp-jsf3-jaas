@@ -110,7 +110,6 @@ Este es un proyecto de aplicación web que implementa operaciones CRUD (Crear, L
 │           └── layouts
 │               └── main.xhtml
 └── test
-└── java
 ├── .gitignore
 ├── pom.xml
 └── README.md
