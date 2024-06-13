@@ -1,27 +1,21 @@
 # Web App para CRUD de la entidad Producto con Jakarta EE
 
-<style>
-.highlight {
-    background-color: yellow;
-}
-</style>
-
 ## Descripción
 
 Este es un proyecto de aplicación web que implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) utilizando implementaciones de **Jakarta Enterprise Edition (Jakarta EE)**: **Jakarta Faces** (con bibliotecas **PrimeFaces** y **PrimeFlex**), **Jakarta Enterprise Beans (EJB)**, **Jakarta Contexts and Dependency Injection (CDI)**, **Jakarta Persistence**, y **Jakarta Authentication / Jakarta Authorization (JAAS)**. La aplicación utiliza Maven para la gestión de dependencias y construcción del proyecto, y se despliega en un servidor de aplicaciones WildFly.
 
 ## Características Principales
 
-- Implementación de CRUD para la entidad `Producto` utilizando varias implementaciones de <span class="highlight">**Jakarta EE**</span>.
-- Interfaz de usuario moderna y receptiva gracias a <span class="highlight">**Jakarta Faces**</span>, junto a sus bibliotecas <span class="highlight">**PrimeFaces**</span> y <span class="highlight">**PrimeFlex**</span>.
-- Uso de JPA con Hibernate como proveedor de persistencia en <span class="highlight">**Jakarta Persistence**</span>.
-- Integración con <span class="highlight">**CDI**</span> para la inyección de dependencias y gestión de ciclo de vida.
-- Definir el comportamiento y la accesibilidad de los servicios mediante <span class="highlight">**EJB**</span>.
-- Manejo de la autenticación y autorización con <span class="highlight">**JAAS**</span>.
-- Desarrollo realizado con el entorno de desarrollo integrado <span class="highlight">**IntelliJ IDEA**</span>.
-- Gestión de dependencias y construcción del proyecto facilitada con <span class="highlight">**Maven**</span>.
-- Configuración de DataSource con <span class="highlight">**MySQL**</span> para la persistencia de datos.
-- Despliegue en el servidor de aplicaciones <span class="highlight">**WildFly**</span>.
+- Implementación de CRUD para la entidad `Producto` utilizando varias implementaciones de **Jakarta EE**.
+- Interfaz de usuario moderna y receptiva gracias a **Jakarta Faces**, junto a sus bibliotecas **PrimeFaces** y **PrimeFlex**.
+- Uso de JPA con Hibernate como proveedor de persistencia en **Jakarta Persistence**.
+- Integración con **CDI** para la inyección de dependencias y gestión de ciclo de vida.
+- Definir el comportamiento y la accesibilidad de los servicios mediante **EJB**.
+- Manejo de la autenticación y autorización con **JAAS**.
+- Desarrollo realizado con el entorno de desarrollo integrado **IntelliJ IDEA**.
+- Gestión de dependencias y construcción del proyecto facilitada con **Maven**.
+- Configuración de DataSource con **MySQL** para la persistencia de datos.
+- Despliegue en el servidor de aplicaciones **WildFly**.
 
 ## Tecnologías Utilizadas
 
