@@ -1,4 +1,4 @@
-# Web App para CRUD de la entidad Producto con Jakarta EE
+# Web App para CRUD de la entidad Producto con Jakarta EE, aplicando Jakarta Authentication / Jakarta Authorization (JAAS)
 
 ## Descripción
 
